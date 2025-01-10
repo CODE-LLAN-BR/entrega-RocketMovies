@@ -7,8 +7,7 @@ export const Container = styled.div`
 
     display:flex;
     align-items:center;
-
-    
+    justify-content:space-between;
 
     background-color:${({theme})=>theme.COLORS.BACKGROUND};
 
@@ -17,20 +16,18 @@ export const Container = styled.div`
 
 
     h1{
-        margin:0 6rem 0 12rem;
+        margin: 0 6rem;
 
         color:${({theme})=>theme.COLORS.PINK};
     }
 
-    .input{
-        padding-left:2.4rem;
-    }
+    
     
 `;
 
 
 export const Leave = styled.div`
-    margin:0 12rem 0 6rem;
+    margin: 0 6rem;
 
     display:flex;
     
@@ -40,17 +37,13 @@ export const Leave = styled.div`
         flex-direction:column;
         justify-content:center;
         font-size:1.4rem;
-
         width:max-content;
-
-
     }
 
     a{
         color:${({theme})=>theme.COLORS.GRAY_500};
 
         align-self:flex-end;
-        
     }
 
     img{
@@ -58,6 +51,14 @@ export const Leave = styled.div`
         height:6.4rem;
         border-radius:50%;
         margin-left:8px;
-
     }
+`;
+
+
+export const Search = styled.div`
+    width:100%;
+    .input{
+        padding-left:2.4rem;
+    }
+
 `;

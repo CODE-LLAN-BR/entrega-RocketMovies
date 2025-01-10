@@ -1,4 +1,4 @@
-import { Container , Leave } from './styles';
+import { Container , Leave ,Search} from './styles';
 
 import { Input } from '../Input';
 
@@ -11,8 +11,10 @@ export function Header(){
                 RocketMovies
             </h1>
 
-            <Input placeholder ="Pesquisar pelo título" className= "input"/>
-
+            <Search>
+                <Input placeholder ="Pesquisar pelo título" className= "input"/>
+            </Search>
+            
             <Leave>
                 <section>
                     <h3>Leonardo Nunes</h3>
