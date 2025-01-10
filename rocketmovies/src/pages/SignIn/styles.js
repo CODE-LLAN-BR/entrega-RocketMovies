@@ -1,10 +1,64 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    font-size:40px;
+import background from '../../assets/background.png';
 
-    background:${({theme})=>theme.COLORS.BACKGROUND};
-    color:${({theme})=>theme.COLORS.PINK};
+export const Container = styled.div`
+ display:flex;
+ height:100vh;
+`
+
+export const Form = styled.form`
+    width:34rem;
+    margin:10rem 13rem 0;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+
+    >h1{
+      font-size:4.8rem;
+      font-weight:800;
+      
+      margin-bottom:.8rem;
+
+      color:${({theme})=>theme.COLORS.PINK};
+    }
+
+    >p{
+      font-size:1.4rem;
+
+      margin-bottom:4.8rem;
+    }
+
+    >h2{
+      font-size:2.4rem;
+      font-weight:500;
+      
+      align-self:flex-start;
+
+      margin-bottom:4.8rem;
+
+    }
+
+    :nth-child(5){
+      margin:.8rem 0 2.4rem;
+    }
+
+    :nth-child(7){
+      margin-top:4.2rem;
+      
+      color:${({theme})=>theme.COLORS.PINK};
+    } 
+
 
     
-`
+`;
+
+
+export const Background = styled.div`
+    width:60%;
+    flex:1;
+    background:url(${background}) no-repeat center center;
+    background-size:cover;
+`;
