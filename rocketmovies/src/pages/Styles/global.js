@@ -28,7 +28,7 @@ export default createGlobalStyle`
 
     a{
         text-decoration:none;
-        transition:filter 0.3s;
+        transition:filter 0.4s;
     }
 
     body ,  button  {
@@ -49,7 +49,7 @@ export default createGlobalStyle`
     }
 
     button:hover {
-        transition:.3s;
+        transition:.4s;
         filter: brightness(0.8);
         cursor: pointer;
         
