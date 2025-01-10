@@ -27,10 +27,10 @@ export const Form = styled.form`
 
     >p{
       font-size:1.4rem;
-
       margin-bottom:4.8rem;
 
       color:${({theme})=>theme.COLORS.GRAY};
+      
     }
 
     >h2{
@@ -43,12 +43,24 @@ export const Form = styled.form`
 
     }
 
-    :nth-child(5){
-      margin:.8rem 0 2.4rem;
+    >:nth-child(5){
+      margin:.8rem 0 .8rem;
     }
 
+    button{
+      margin-top:1.6rem;
+    }
+    
+    
     >a{
       margin-top:4.2rem;
+      display:flex;
+      align-items:center;
+
+      >svg{
+        margin-right:.8rem;
+      }
+      
       
       color:${({theme})=>theme.COLORS.PINK};
     } 

@@ -1,5 +1,5 @@
 
-import { FiLock, FiMail } from 'react-icons/fi';
+import { FiLock, FiMail ,FiUser ,FiArrowLeft } from 'react-icons/fi';
 
 import { Container ,Form , Background } from './styles';
 
@@ -7,7 +7,7 @@ import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 
 
-export function SignIn() {
+export function SignUp() {
     return(
         <Container>
                 
@@ -17,15 +17,20 @@ export function SignIn() {
                 <p>Aplicação para acompanhar tudo que assistir.</p>
 
                 
-                <h2>Faça seu login</h2>
+                <h2>Crie sua conta</h2>
+
+                <Input type="text" placeholder="Nome" icon={FiUser}/>
 
                 <Input type="text" placeholder="E-mail" icon={FiMail}/>
 
                 <Input type="password" placeholder="Senha" icon={FiLock}/>
 
-                <Button title="Entrar"/>
+                <Button title="Cadastrar"/>
 
-                <a href="#">Criar conta</a>
+                <a href="#">
+                    <FiArrowLeft/>
+                    Voltar para o login
+                </a>
             </Form>
 
             <Background/>
