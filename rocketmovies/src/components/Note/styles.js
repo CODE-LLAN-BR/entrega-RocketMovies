@@ -16,12 +16,36 @@ export const Container = styled.button`
         margin-bottom:.8rem;
     }
 
+    
+
     .stars{
         margin-bottom:1.6rem;
     }
     
     p{
         text-align:justify;
-        ;
+
+        margin-bottom: 3rem;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        display: -webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient: vertical;
+        
     }
+
+    .tag{
+        margin-right:.8rem;
+
+        
+    }
+
+
+
+
 `;
+
+
+

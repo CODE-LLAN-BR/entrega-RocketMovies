@@ -14,9 +14,10 @@ export const Container = styled.div`
     border-bottom:1px solid;
     border-bottom-color:${({theme})=>theme.COLORS.GRAY_200};
 
+    
 
     h1{
-        margin: 0 6rem;
+        padding: 0 6rem;
 
         color:${({theme})=>theme.COLORS.PINK};
     }
@@ -27,7 +28,7 @@ export const Container = styled.div`
 
 
 export const Leave = styled.div`
-    margin: 0 6rem;
+    padding: 0 6rem;
 
     display:flex;
     
