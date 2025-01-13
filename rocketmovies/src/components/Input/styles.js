@@ -11,12 +11,14 @@ export const Container = styled.div`
     border-radius:1rem;
     
     svg{
-        margin:1.6rem;
+        margin-left:1.6rem;
         color:${({theme})=>theme.COLORS.GRAY_500};
     }
 
 
     >input{
+
+        margin-left:1.6rem;
         width:100%;
         height:5.6rem;
 
@@ -31,5 +33,5 @@ export const Container = styled.div`
 
     }
 
-    
+    grid-area:input;
 `;

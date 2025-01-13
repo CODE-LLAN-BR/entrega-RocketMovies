@@ -1,10 +1,11 @@
 import {Container} from './styles';
 
 
-export function Button({icon:Icon ,title, ...rest}) {
+export function Button({icon:Icon ,title , ...rest}) {
     return(
         <Container 
-        type= 'button'
+        
+        type = 'button'
         {...rest}
         >
         {Icon && <Icon size={16}/>}

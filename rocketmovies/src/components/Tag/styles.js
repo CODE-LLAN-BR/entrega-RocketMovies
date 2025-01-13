@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container=styled.span`
+export const Container = styled.span`
     font-family:"Roboto",sans-serif;
     font-size:1.2rem;
 

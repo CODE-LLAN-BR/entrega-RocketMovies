@@ -58,8 +58,4 @@ export const Leave = styled.div`
 
 export const Search = styled.div`
     width:100%;
-    .input{
-        padding-left:2.4rem;
-    }
-
 `;

@@ -13,11 +13,16 @@ export const Container = styled.button`
     border-radius:1rem;
     font-weight:500;
 
-    background-color:${({theme})=>theme.COLORS.PINK};
-    color:${({theme})=>theme.COLORS.GRAY_100};
+    background-color:${({ theme })=> theme.COLORS.PINK};
+    color:${({ theme })=>  theme.COLORS.GRAY_100};
 
     svg {
         margin-right:.8rem;
     }
+
+    .btn-alt{
+        background-color:white;
+    }
+
     
 `;
