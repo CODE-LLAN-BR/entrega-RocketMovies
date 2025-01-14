@@ -47,14 +47,13 @@ export const Form = styled.form`
       margin:.8rem 0 2.4rem;
     }
 
-    >a{
+    .link{
       margin-top:4.2rem;
       
       color:${({theme})=>theme.COLORS.PINK};
     } 
 
 
-    
 `;
 
 

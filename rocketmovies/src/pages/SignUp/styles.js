@@ -47,12 +47,12 @@ export const Form = styled.form`
       margin:.8rem 0 .8rem;
     }
 
-    button{
+    a{
       margin-top:1.6rem;
     }
     
     
-    >a{
+    .link{
       margin-top:4.2rem;
       display:flex;
       align-items:center;
@@ -65,6 +65,7 @@ export const Form = styled.form`
       color:${({theme})=>theme.COLORS.PINK};
     } 
 
+    
 
     
 `;

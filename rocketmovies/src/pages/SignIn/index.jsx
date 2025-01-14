@@ -27,7 +27,7 @@ export function SignIn() {
 
                 <Button title="Entrar"/>
 
-                <Link to = "/register">Criar conta</Link>
+                <Link className="link" to = "/register">Criar conta</Link>
             </Form>
 
             <Background/>

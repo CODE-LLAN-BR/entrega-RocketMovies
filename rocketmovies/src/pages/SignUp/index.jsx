@@ -29,7 +29,7 @@ export function SignUp() {
 
                 <Button title="Cadastrar"/>
 
-                <Link to='/'>
+                <Link className="link" to='/'>
                     <FiArrowLeft/>
                     Voltar para o login
                 </Link>
