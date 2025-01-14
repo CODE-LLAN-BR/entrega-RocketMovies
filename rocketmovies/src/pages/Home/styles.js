@@ -17,8 +17,8 @@ export const Container = styled.div`
         font-weight:400;
         }
         
-        button{
-        max-width:20rem;
+        #button{
+        max-width:21rem;
         } 
     }
 
@@ -35,6 +35,7 @@ export const Content = styled.div`
     grid-template-columns:auto;
     
     grid-template-areas:"content";
+
     
 
     .contentData{
@@ -42,7 +43,7 @@ export const Content = styled.div`
         
         overflow-y:auto;
 
-        >button{
+        >a{
         margin-bottom:2.4rem;
         margin-right:.8rem;
         }

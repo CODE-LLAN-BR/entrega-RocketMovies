@@ -48,7 +48,8 @@ export const Form = styled.form`
     :nth-child(4){
         margin:2.4rem 0 .8rem;
     }
-    >button{
+    
+    a{
         margin-top:2.4rem;
     }
 `;

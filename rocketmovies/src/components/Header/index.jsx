@@ -1,6 +1,7 @@
 import { Container , Leave ,Search} from './styles';
 
 import { Input } from '../Input';
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,9 +23,9 @@ export function Header(){
                     <a href="#">sair</a>
                 </section>
                     
-                <figure>
+                <Link to="/profile">
                     <img src="https://github.com/CODE-LLAN-BR.png" alt="foto do usuário" />
-                </figure>
+                </Link>
             </Leave>
 
             

@@ -1,5 +1,7 @@
 import { Container ,Form } from './styles';
 
+import { Link } from 'react-router-dom';
+
 import { FiArrowLeft } from 'react-icons/fi'
 
 import { Header } from '../../components/Header';
@@ -7,12 +9,13 @@ import { Input } from '../../components/Input';
 import { NoteTag } from '../../components/NoteTag';
 import { Button } from '../../components/Button'
 
+
 export function New() {
     return(
         <Container>
             <Header/>
             <main>
-                <a href="#"><FiArrowLeft/>Voltar</a>
+                <Link to="/"><FiArrowLeft/>Voltar</Link>
                 <Form>
                     <div className='formBox'>
                         <section>
