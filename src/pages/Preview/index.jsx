@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { api } from '../../services/api';
-import { useAuth } from '../../hooks/auth';
+import { useAuth } from '../../hooks/Auth';
 
 import { Link } from 'react-router-dom';
 
