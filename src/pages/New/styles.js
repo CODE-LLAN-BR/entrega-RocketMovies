@@ -8,6 +8,7 @@ export const Container=styled.div`
         padding:4rem 12rem 0;
 
         >a{
+            width:max-content;
             grid-area:head;
 
             margin-bottom:2.4rem;
@@ -96,6 +97,7 @@ export const Form = styled.form`
         margin-bottom:4rem;
 
         background-color:${({theme})=>theme.COLORS.BACKGROUND_700};
+        color:${({theme})=>theme.COLORS.GRAY_500};
 
         resize:none;
         

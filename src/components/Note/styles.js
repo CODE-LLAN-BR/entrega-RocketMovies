@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import { Link } from "react-router-dom";
 
-export const Container = styled(Link)`
+
+export const Container = styled.div`
     border:none;    
     border-radius:1.6rem;
     padding:3.2rem;

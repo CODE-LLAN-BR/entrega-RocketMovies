@@ -43,9 +43,12 @@ export const Content = styled.div`
         
         overflow-y:auto;
 
-        >a{
+        >div{
         margin-bottom:2.4rem;
         margin-right:.8rem;
+        }
+        >div:hover{
+            cursor: pointer;
         }
    
     }

@@ -17,7 +17,7 @@ export function Note({ data ,...rest}) {
             <Rating className='stars'/>
 
             <p>
-                {data.text}
+                {data.description}
             </p>
             {
                 data.tags &&

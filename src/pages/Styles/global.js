@@ -30,6 +30,9 @@ export default createGlobalStyle`
         text-decoration:none;
         transition:filter 0.4s;
     }
+    a:hover{
+        cursor: pointer;
+    }
 
     body ,  button  {
         font-family:'Roboto Slab',serif;
