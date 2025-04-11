@@ -2,7 +2,7 @@ import { useNavigate,Link } from "react-router-dom";
 
 
 import  { api } from "../../services/api.js";
-import { useAuth } from "../../hooks/auth";
+import { useAuth } from "../../hooks/Auth";
 
 import { Container , Leave ,Search} from './styles';
 import profileDefault from "../../assets/profileDefault.svg"
