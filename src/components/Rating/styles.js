@@ -8,7 +8,7 @@ export const Container = styled.div`
         color:${({theme})=> theme.COLORS.PINK};
         width:1.2rem;
         height:1.2rem;
-        margin-right:.6rem;
+        margin-right:1.4rem;
         
     }
     

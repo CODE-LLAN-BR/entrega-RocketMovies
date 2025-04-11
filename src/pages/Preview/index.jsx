@@ -14,6 +14,7 @@ import { FiArrowLeft } from 'react-icons/fi';
 import { Header } from '../../components/Header';
 import { Rating } from '../../components/Rating';
 import { Tag } from '../../components/Tag';
+import profileDefault from '../../assets/profileDefault.svg'
 
 
 
