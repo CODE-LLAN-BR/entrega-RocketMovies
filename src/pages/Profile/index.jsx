@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useAuth } from '../../hooks/auth.jsx'
+import { useAuth } from '../../hooks/Auth.jsx'
 import  { api } from "../../services/api.js"
 
 
